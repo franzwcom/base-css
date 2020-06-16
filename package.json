@@ -1,7 +1,7 @@
 {
 	"name": "@pomegranate-ui/base-css",
-	"version": "1.0.3",
-	"description": "basic css ",
+	"version": "1.0.4",
+	"description": "Basic css reset styles for browser consistency",
 	"author": "franzwcom",
 	"license": "MIT",
 	"repository": "https://github.com/franzwcom/base-css.git",
