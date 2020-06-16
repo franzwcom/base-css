@@ -8,7 +8,7 @@
 // export const ExampleComponent = ({ text }: Props) => {
 //   return <div className={styles.test}>Example Component: {text}</div>
 // }
-import "normalize.css";
+// import "normalize.css";
 // import "./components/styles/base.css";
 export { BaseCss } from './components';
 export type { IBaseCss } from './components';

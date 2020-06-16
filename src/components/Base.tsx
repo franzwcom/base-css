@@ -5,7 +5,7 @@
 import React from 'react';
 /** @jsx jsx */
 import { Global } from '@emotion/core';
-import { roots, globalcss, extraNormalize } from './styles';
+import { roots, globalcss, extraNormalize, normalizecss } from './styles';
 import { latoFont } from './fonts';
 
 export interface IBaseCss {
@@ -20,6 +20,7 @@ export const BaseCss = (params: IBaseCss) => {
 		<React.Fragment>
 			<Global styles={[
 				// order matters 
+				normalizecss,
 				extraNormalize,
 				latoFont,
 				roots,
