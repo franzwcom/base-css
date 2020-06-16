@@ -1,10 +1,14 @@
-import * as React from 'react'
-import styles from './styles.module.css'
+// import * as React from 'react'
+// import styles from './styles.module.css'
 
-interface Props {
-  text: string
-}
+// interface Props {
+//   text: string
+// }
 
-export const ExampleComponent = ({ text }: Props) => {
-  return <div className={styles.test}>Example Component: {text}</div>
-}
+// export const ExampleComponent = ({ text }: Props) => {
+//   return <div className={styles.test}>Example Component: {text}</div>
+// }
+import "normalize.css";
+// import "./components/styles/base.css";
+export { BaseCss } from './components';
+export type { IBaseCss } from './components';

@@ -1,10 +1,19 @@
 import React from 'react'
 
-import { ExampleComponent } from 'base-css'
-import 'base-css/dist/index.css'
+import { BaseCss } from 'base-css';
+
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+	return (
+		<React.Fragment>
+			<BaseCss />
+			<h1>globals loaded</h1>
+			<ul>
+				<li>111</li>
+				<li>wwww</li>
+			</ul>
+		</React.Fragment>
+	)
 }
 
 export default App
