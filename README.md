@@ -34,6 +34,9 @@ const roots = css`
 		--brand-github-color: #fff;
 		--brand-github-bg-hover: #000;
 	}
+	.custom-class {
+		font-family: sans-serif;
+	}
 `
 ```
 
