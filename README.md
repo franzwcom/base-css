@@ -18,7 +18,7 @@ import { BaseCss } from '@pomegranate-ui/base-css'
 import { jsx, Global, css } from '@emotion/core'
 ```
 
-> `:root` useful for declaring CSS variables
+> The `:root` can be useful for declaring CSS variables
 > extending also for global clases, use it sparingly
 
 ```tsx
