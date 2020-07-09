@@ -7,10 +7,10 @@ const App = () => {
 	return (
 		<React.Fragment>
 			<BaseCss />
-			<h1>globals loaded</h1>
+			<h1>Globals loaded</h1>
 			<ul>
-				<li>111</li>
-				<li>wwww</li>
+				<li>Item 1</li>
+				<li>Item 2</li>
 			</ul>
 		</React.Fragment>
 	)
